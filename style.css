@@ -1,0 +1,129 @@
+body {
+    background-image: url("images/pink-gradient-yellow-linear-2880x1800-c2-ffb6c1-ffdab9-a-255-f-14.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 50px 125px;
+    min-height: 1000px;
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    box-shadow: none!important;
+}
+
+nav div {
+    margin-right: 200px;
+}
+
+nav div a{
+    margin-right: 30px;
+    color: rgb(35, 0, 130);
+
+}
+
+#brandLogo {
+    color: rgb(35, 0, 130);
+    margin-left: 200px;
+}
+
+#about {
+    margin-top: 100px;
+    color: rgb(0, 0, 130);
+}
+
+#about h5{
+    margin-top:50px;
+}
+
+#readblog {
+    min-width: 175px;
+    margin-top: 30px;
+    background-color: rgb(103, 110, 235);
+}
+
+#pinkBG {
+    background-image: url('images/pinklines.jpg');
+    min-width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.tabs{
+    max-width: 700px;
+}
+
+.tabs .tab a{
+    color: rgb(0, 0, 130);
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#eee;
+    color: rgb(0, 0, 130);
+} /*Text color on hover*/
+
+
+.tabs .indicator {
+    background-color: rgb(0, 0, 130);
+} /*Color of underline*/
+
+.card {
+    margin-left: 200px;
+    width: 300px;
+    height: 200px;
+}
+
+#graph {
+    width: 900px;
+    height: 450px;
+}
+
+#all div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+
+#lending div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+#dexes div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+#derivatives div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+#payments div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+#assets div a {
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 130)
+}
+
+table {
+    color: rgb(0, 0, 130);
+    margin-left: 230px;
+    max-width: 1300px;
+}
+
