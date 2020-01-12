@@ -1,8 +1,9 @@
 body {
-    background-image: url("images/pink-gradient-yellow-linear-2880x1800-c2-ffb6c1-ffdab9-a-255-f-14.png");
+    background-image: url("../../images/pink-gradient-yellow-linear-2880x1800-c2-ffb6c1-ffdab9-a-255-f-14.png");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Raleway', sans-serif;
 }
 
 main {
@@ -47,7 +48,7 @@ nav div a{
 }
 
 #pinkBG {
-    background-image: url('images/pinklines.jpg');
+    background-image: url('../../images/pinklines.jpg');
     min-width: 100%;
     min-height: 300px;
     background-position: center;
