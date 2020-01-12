@@ -8,8 +8,7 @@
     href = "https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel = "stylesheet" 
         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-    <script type = "text/javascript"
-        src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
     </script> 
     <link rel="stylesheet" href="style.css" type='text/css'>
@@ -64,7 +63,7 @@
                 <div id = "all" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency1' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
                         <ul id='dropdown1' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
@@ -98,7 +97,7 @@
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphAll'>
                                 <div class="card-content">
                                     <canvas id="chartAll"></canvas>
                                 </div>
@@ -109,9 +108,9 @@
                 <div id = "lending" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown2' id='currency2' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
-                        <ul id='dropdown1' class='dropdown-content'>
+                        <ul id='dropdown2' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
                             <li><a href="#!">UK Poundsterling</a></li>
                             <li><a href="#!">IDN Rupiah</a></li>
@@ -126,26 +125,26 @@
                         <div class="col s3">
                             <div class="card">
                                 <div class="card-content">
-                                  <img src ='images/yellowcoin.png' width=50px height=50px><br>
-                                  <span class="card-title"><h3>$752.2 M</h3></span>
-                                  <p>Total value Locked in DeFi</p>
+                                  <img src ='images/yellowcoin.png' alt='Coin Marketshare logo' width=50 height=50><br>
+                                  <h3><span class="card-title">$752.2 M</span></h3>
+                                  <p>Total value Locked in FiWatch</p>
                                 </div>
                             </div>
                             <div class="card" style='margin-top: 50px;'>
                                 <div class="card-content">
-                                  <img src ='images/mgreen.png' width=50px height=50px><br>
+                                  <img src ='images/mgreen.png' alt='Green Broker Dominance' width=50 height=50><br>
                                   <div class="progress">
                                     <div class="determinate" style="width: 50%; background-color:peachpuff"></div>
                                   </div>
-                                  <span class="card-title"><h3>49.91%</h3></span>
-                                  <p>Maker Dominance</p>
+                                  <h3><span class="card-title">49.91%</span></h3>
+                                  <p>Broker Dominance</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphLending'>
                                 <div class="card-content">
-                                    <canvas id="chartAll"></canvas>
+                                    <canvas id="chartLending"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -154,9 +153,9 @@
                 <div id = "dexes" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown3' id='currency3' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
-                        <ul id='dropdown1' class='dropdown-content'>
+                        <ul id='dropdown3' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
                             <li><a href="#!">UK Poundsterling</a></li>
                             <li><a href="#!">IDN Rupiah</a></li>
@@ -171,26 +170,26 @@
                         <div class="col s3">
                             <div class="card">
                                 <div class="card-content">
-                                  <img src ='images/yellowcoin.png' width=50px height=50px><br>
-                                  <span class="card-title"><h3>$752.2 M</h3></span>
-                                  <p>Total value Locked in DeFi</p>
+                                  <img src ='images/yellowcoin.png' alt='Coin Marketshare logo' width=50 height=50><br>
+                                  <h3><span class="card-title">$752.2 M</span></h3>
+                                  <p>Total value Locked in FiWatch</p>
                                 </div>
                             </div>
                             <div class="card" style='margin-top: 50px;'>
                                 <div class="card-content">
-                                  <img src ='images/mgreen.png' width=50px height=50px><br>
+                                  <img src ='images/mgreen.png' alt='Green Broker Dominance' width=50 height=50><br>
                                   <div class="progress">
                                     <div class="determinate" style="width: 50%; background-color:peachpuff"></div>
                                   </div>
-                                  <span class="card-title"><h3>49.91%</h3></span>
-                                  <p>Maker Dominance</p>
+                                  <h3><span class="card-title">49.91%</span></h3>
+                                  <p>Broker Dominance</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphDexes'>
                                 <div class="card-content">
-                                    <canvas id="chartAll"></canvas>
+                                    <canvas id="chartDexes"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -199,9 +198,9 @@
                 <div id = "derivatives" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown4' id='currency4' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
-                        <ul id='dropdown1' class='dropdown-content'>
+                        <ul id='dropdown4' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
                             <li><a href="#!">UK Poundsterling</a></li>
                             <li><a href="#!">IDN Rupiah</a></li>
@@ -216,26 +215,26 @@
                         <div class="col s3">
                             <div class="card">
                                 <div class="card-content">
-                                  <img src ='images/yellowcoin.png' width=50px height=50px><br>
-                                  <span class="card-title"><h3>$752.2 M</h3></span>
-                                  <p>Total value Locked in DeFi</p>
+                                  <img src ='images/yellowcoin.png' alt='Coin Marketshare logo' width=50 height=50><br>
+                                  <h3><span class="card-title">$752.2 M</span></h3>
+                                  <p>Total value Locked in FiWatch</p>
                                 </div>
                             </div>
                             <div class="card" style='margin-top: 50px;'>
                                 <div class="card-content">
-                                  <img src ='images/mgreen.png' width=50px height=50px><br>
+                                  <img src ='images/mgreen.png' alt='Green Broker Dominance' width=50 height=50><br>
                                   <div class="progress">
                                     <div class="determinate" style="width: 50%; background-color:peachpuff"></div>
                                   </div>
-                                  <span class="card-title"><h3>49.91%</h3></span>
-                                  <p>Maker Dominance</p>
+                                  <h3><span class="card-title">49.91%</span></h3>
+                                  <p>Broker Dominance</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphDerivatives'>
                                 <div class="card-content">
-                                    <canvas id="chartAll"></canvas>
+                                    <canvas id="chartDerivatives"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -244,9 +243,9 @@
                 <div id = "payments" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown5' id='currency5' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
-                        <ul id='dropdown1' class='dropdown-content'>
+                        <ul id='dropdown5' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
                             <li><a href="#!">UK Poundsterling</a></li>
                             <li><a href="#!">IDN Rupiah</a></li>
@@ -261,26 +260,26 @@
                         <div class="col s3">
                             <div class="card">
                                 <div class="card-content">
-                                  <img src ='images/yellowcoin.png' width=50px height=50px><br>
-                                  <span class="card-title"><h3>$752.2 M</h3></span>
-                                  <p>Total value Locked in DeFi</p>
+                                  <img src ='images/yellowcoin.png' alt='Coin Marketshare logo' width=50 height=50><br>
+                                  <h3><span class="card-title">$752.2 M</span></h3>
+                                  <p>Total value Locked in FiWatch</p>
                                 </div>
                             </div>
                             <div class="card" style='margin-top: 50px;'>
                                 <div class="card-content">
-                                  <img src ='images/mgreen.png' width=50px height=50px><br>
+                                  <img src ='images/mgreen.png' alt='Green Broker Dominance' width=50 height=50><br>
                                   <div class="progress">
                                     <div class="determinate" style="width: 50%; background-color:peachpuff"></div>
                                   </div>
-                                  <span class="card-title"><h3>49.91%</h3></span>
-                                  <p>Maker Dominance</p>
+                                  <h3><span class="card-title">49.91%</span></h3>
+                                  <p>Broker Dominance</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphPayments'>
                                 <div class="card-content">
-                                    <canvas id="chartAll"></canvas>
+                                    <canvas id="chartPayments"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -289,9 +288,9 @@
                 <div id = "assets" class = "col s12">
                     <div class="row" style='margin-top: 70px; margin-left: 520px;'>
                         <!-- Dropdown Trigger -->
-                        <a class='dropdown-button btn' href='#' data-activates='dropdown1' id='currency' style='margin-right:170px;'>Currency</a>
+                        <a class='dropdown-button btn' href='#' data-activates='dropdown6' id='currency6' style='margin-right:170px;'>Currency</a>
                         <!-- Dropdown Structure -->
-                        <ul id='dropdown1' class='dropdown-content'>
+                        <ul id='dropdown6' class='dropdown-content'>
                             <li><a href="#!">US$</a></li>
                             <li><a href="#!">UK Poundsterling</a></li>
                             <li><a href="#!">IDN Rupiah</a></li>
@@ -306,26 +305,26 @@
                         <div class="col s3">
                             <div class="card">
                                 <div class="card-content">
-                                  <img src ='images/yellowcoin.png' width=50px height=50px><br>
-                                  <span class="card-title"><h3>$752.2 M</h3></span>
-                                  <p>Total value Locked in DeFi</p>
+                                  <img src ='images/yellowcoin.png' alt='Coin Marketshare logo' width=50 height=50><br>
+                                  <h3><span class="card-title">$752.2 M</span></h3>
+                                  <p>Total value Locked in FiWatch</p>
                                 </div>
                             </div>
                             <div class="card" style='margin-top: 50px;'>
                                 <div class="card-content">
-                                  <img src ='images/mgreen.png' width=50px height=50px><br>
+                                  <img src ='images/mgreen.png' alt='Green Broker Dominance' width=50 height=50><br>
                                   <div class="progress">
                                     <div class="determinate" style="width: 50%; background-color:peachpuff"></div>
                                   </div>
-                                  <span class="card-title"><h3>49.91%</h3></span>
-                                  <p>Maker Dominance</p>
+                                  <h3><span class="card-title">49.91%</span></h3>
+                                  <p>Broker Dominance</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col s9">
-                            <div class="card" id='graph'>
+                            <div class="card graph" id='graphAssets'>
                                 <div class="card-content">
-                                    <canvas id="chartAll"></canvas>
+                                    <canvas id="chartAssets"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -364,65 +363,64 @@
             </tbody>
           </table>       
     </main>
+    <script>
+        const all = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const year = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const quarter = ['January', 'February', 'March'];
+        const month = ['Week 1', 'Week 2', 'Week 3', 'Week 4'];
+        const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+        const allData = [100, 120, 354, 224, 230, 304, 465, 117, 424, 112, 318, 229]
+        const yearData = [100, 120, 354, 224, 230, 304, 465, 117, 424, 112, 318, 229]
+        const quarterData = [100, 120, 354]
+        const monthData = [80, 90, 120, 110]
+        const weekData = [60, 60, 70, 90, 100, 70, 70, 80]
+
+        var ctx = document.getElementById('chartAll').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+
+            data: {
+                labels: all,
+                datasets: [{
+                    label: 'Value Over Time',
+                    backgroundColor: 'rgba(255,192,203, 0.2)',
+                    borderColor: '#FFC0CB',
+                    data: allData
+                }]
+            },
+
+            options: {}
+        });
+            function toAll() {
+                chart.data.datasets[0].data = allData
+                chart.data.labels = all;
+                chart.update();
+            }
+            function toYear() {
+                chart.data.datasets[0].data = yearData
+                chart.data.labels = year;
+                chart.update();
+            }
+            function toQuarter() {
+                chart.data.datasets[0].data = quarterData
+                chart.data.labels = quarter;
+                chart.update();
+            }
+            function toMonth() {
+                chart.data.datasets[0].data = monthData
+                chart.data.labels = month;
+                chart.update();
+            }
+            function toWeek() {
+                chart.data.datasets[0].data = weekData
+                chart.data.labels = week;
+                chart.update();
+            }
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.dropdown-trigger');
+                var instances = M.Dropdown.init(elems, options);
+            });
+    </script>
 </body>
-<script>
-const all = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const year = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const quarter = ['January', 'February', 'March'];
-const month = ['Week 1', 'Week 2', 'Week 3', 'Week 4'];
-const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-
-const allData = [100, 120, 354, 224, 230, 304, 465, 117, 424, 112, 318, 229]
-const yearData = [100, 120, 354, 224, 230, 304, 465, 117, 424, 112, 318, 229]
-const quarterData = [100, 120, 354]
-const monthData = [80, 90, 120, 110]
-const weekData = [60, 60, 70, 90, 100, 70, 70, 80]
-
-var ctx = document.getElementById('chartAll').getContext('2d');
-var chart = new Chart(ctx, {
-    type: 'line',
-
-    data: {
-        labels: all,
-        datasets: [{
-            label: 'Value Over Time',
-            backgroundColor: 'rgba(255,192,203, 0.2)',
-            borderColor: '#FFC0CB',
-            data: allData
-        }]
-    },
-
-    options: {}
-});
-    function toAll() {
-        chart.data.datasets[0].data = allData
-        chart.data.labels = all;
-        chart.update();
-    }
-    function toYear() {
-        chart.data.datasets[0].data = yearData
-        chart.data.labels = year;
-        chart.update();
-    }
-    function toQuarter() {
-        chart.data.datasets[0].data = quarterData
-        chart.data.labels = quarter;
-        chart.update();
-    }
-    function toMonth() {
-        chart.data.datasets[0].data = monthData
-        chart.data.labels = month;
-        chart.update();
-    }
-    function toWeek() {
-        chart.data.datasets[0].data = weekData
-        chart.data.labels = week;
-        chart.update();
-    }
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.dropdown-trigger');
-        var instances = M.Dropdown.init(elems, options);
-    });
-
-</script>
 </html>
